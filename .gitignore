@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Do not ignore directories (to allow searching for files inside them)
+!*/
+
+# Whitelist exercises (.java files)
+!*.java
+
+# Whitelist project documentation and configuration
+!README.md
+!.gitignore
+
+# If there are any specific build scripts or licenses you want to keep, add them here
+#!LICENSE
+#!pom.xml
+#!build.gradle
